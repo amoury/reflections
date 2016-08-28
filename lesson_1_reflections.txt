@@ -1,0 +1,18 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+	Its very interesting to know and see how the computer helps you point the differences in the two files. This is huge especially for tracking bugs or tracking any typo between the working version and the broken version.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	
+	Once you have the version backups, you dont fear breaking code while trying out new features or changes.
+
+How can you use the commands git log and git diff to view the history of files?
+	git log => used for getting the history of all the commits.
+	git diff => used to check the difference between the two commits using their ids
+
+	example: git diff f19cb1b80fe27e938e4d72770ca0a42f25e99ecc b0678b161fcf74467ed3a63110557e3d6229cfa6
+
+	First the old commit then list the latest commit id
+
+How might using version control make you more confident to make changes that could break something?
+	Even if you break something apart, you can easily go back to your previous commit and look for the diff or changes made.
